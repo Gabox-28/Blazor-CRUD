@@ -1,0 +1,8 @@
+﻿@page "/ModuleTitle"
+<h1>@Title</h1>
+
+@code {
+    [Parameter]
+    [EditorRequired]
+    public string Title { get; set; }
+}
